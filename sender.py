@@ -20,7 +20,7 @@ def shorten( text, _max ):
     if len(text) < _max :
         return text
     else :
-        return -1
+        return -2
 
 # Add name, institute and project to certificate
 def make_certi( ID, name, institute, topic ):
